@@ -6,7 +6,7 @@ const ArtistStore = {
                 route: 'prichindel',
                 text: 'Prichindel is one of the newest forerunners of the next generation on the Romanian scene, an artist that had a natural growth and reached the place where he belongs, alongside the big names of the industry. Having already appeared at the most important venues in Romania in 2018, Prichindel is definitely a name that will constantly turn your head in 2019 and the years coming around the world, due to his unique and groovy style, which helped him deliver consistent performances that were appreciated by every crowd he made dance. A very affectionate personality, he is expressing himself through the joyous music he spreads and is one of the DJs that will continue to help expanding the vision of what the ‘Romanian Sound’ means.',
                 imageSmall: 'https://i.ibb.co/jZMWZGn/prichindel.jpg',
-                imageBig: 'https://i.ibb.co/PxP5D7H/prichindel2.jpg'
+                imageBig: '../../assets/prichindel2.jpg'
             },
             "macarie" : {
                 name: 'Macarie',

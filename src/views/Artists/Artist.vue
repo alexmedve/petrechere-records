@@ -1,7 +1,9 @@
 <template>
     <div class="container">
         <div class="content">
-            {{ArtistStore[name].text}}
+            <img :src="artistImg">
+            <!-- <img :src="artistImg"> -->
+            {{artistImg}}
         </div>
     </div>
 </template>
@@ -14,6 +16,13 @@
             return {
                 ArtistStore: ArtistStore.data.artists,
                 name: this.$route.params.name,
+            }
+        },
+        computed: {
+            artistImg() {
+                let artist = this.ArtistStore[this.name];
+                console.log(artist.imageBig);
+                return require(artist.imageBig);
             }
         }
     }
